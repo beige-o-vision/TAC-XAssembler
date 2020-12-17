@@ -265,6 +265,8 @@ def outputPTM(lines, symbols, ptmFileName):
                 ptmFile.write(punch[2] + " ; \n"  + punch[3] + " ; \n" )
             #except Exception:
             #    pass
+    for i in range(0,4):
+        ptmFile.write( "ooo.oo ;                    37 end character\n")
     ptmFile.flush()
     ptmFile.close()
 
