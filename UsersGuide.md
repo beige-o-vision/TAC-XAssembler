@@ -15,7 +15,7 @@ This is a low level assembler. It's meant to consume code in the documented prog
 <pre>TAC-XAssembler.py -i <input-file> [ -t <tape-file> ] [ -l <listing-file> ] [ -p [ -P ] ] 
 <p>     <b>-i</b> InputFile to read
 <p>     <b>-l</b> Output listing file
-<p>     <b>-t</b> Output PMR tape file
+<p>     <b>-t</b> Output PTM tape file
 <p>     <b>-p</b> Read input as a marked up Python source file. 
 <p>     <b>-P</b> Include experimental decompiled output.
 </pre>
